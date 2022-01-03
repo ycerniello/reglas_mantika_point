@@ -3,5 +3,19 @@
 2. 20% desde el 28/12, 
 3. 75% desde el 31/12
 
+-------Regla MLA Naranja 
+1.Share of approved payments (amount) from bins 377798, 589562, 402918, 377799, 527572 >=80%.
+That is
+[amount of approved pymts from bins 377798, 589562, 402918, 377799, 527572]/[amount of total approved pymts]>=80%
+2.[amount of total approved pymts]>=1000 usd
+3.ASP>=50 usd
+4.reg_tax_payer_type = ‘’ or reg_tax_payer_type is null or reg_tax_payer_type = ‘Consumidor Final’ or reg_tax_payer_type = ‘Monotributo’
+5.payments from these bins [377798, 589562, 402918, 377799, 527572]
+
+the amount of approved payments (from mentioned bins and total) were calculated with scoring.form_cc_data_poi_id
+Fecha implementación 30/12/2021
+
+
+
 
 
